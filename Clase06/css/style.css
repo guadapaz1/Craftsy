@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+body{
+    background-image: url(../craftsyBase/img/bg-2.png);}
+
+.headera{
+    display: flex;
+    text-wrap: wrap;
+    background-color: red;
+    color: white;
+    justify-content: space-between;
+    align-items: center;}
+li{
+    list-style: none; 
+    margin: 5px;}
+
+.productos{
+margin: 20px;}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;}
+.ula{
+    justify-content: start;
+    margin: 10px;}
+
+.productoss{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 15px;
+}
+.caja{
+    width: 380px;
+    margin: 10px;
+}
+.elemento{
+    margin: 10px;
+    width: 360px;
+}
+.texto{
+    margin: 15px;
+}
+.vermas{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+}
+.tutoriales{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 380px;
+    margin: 0;
+}
+
+.margen{
+    width: 380px;  
+
+}
+.titulo{
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    width: 380px;
+}
+.tutoriala{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    margin: 1px;
+}
+.tutorialb{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    margin: 1px;
+}
+.tutorialc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    margin: 1px;
+}
+.tutoriald{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    margin: 1px;
+}
+.p{
+    align-content: center;
+    margin: 20px;
+}
+.imgb{
+    margin: 5px;
+}
+.propaganda{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ad{
+    background-color: white;
+    justify-content: center;
+     display: flex;
+    flex-wrap: wrap;
+}
+.propa{
+    margin: 5px;
+}
+.propb{
+    margin: 5px;
+}
+.for{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    }
+
+.mar{
+    width: 100%;
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elementoa{
+    width: 100%;
+}
+.obliga{
+    color: red;
+}
+.recordar{
+    flex-direction: row;
+    justify-content: end;
+}
+.headerb{
+    display: none;
+}
+.mainregistro{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.mainlogin{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.boton{
+    background-color: lightblue;
+border-radius: 5px;
+align-content: center;
+}
+@media(max-width:450px){
+   .headera{
+    display: none;
+   }
+    .headerb{
+    display: flex;
+    text-wrap: wrap;
+    background-color: red;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+    
+
+
